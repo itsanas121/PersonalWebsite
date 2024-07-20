@@ -1,9 +1,9 @@
 <script lang="ts">
-    import Sun from "lucide-svelte/icons/sun";
-    import Moon from "lucide-svelte/icons/moon";
+    import Sun from "svelte-radix/Sun.svelte";
+    import Moon from "svelte-radix/Moon.svelte";
    
     import { toggleMode } from "mode-watcher";
-    import { Button } from "$lib";
+    import { Button } from "$lib/components/ui/button/index.js";
   </script>
    
   <Button on:click={toggleMode} variant="outline" size="icon">
