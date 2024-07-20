@@ -2,6 +2,7 @@
     import Button from "./ui/button/button.svelte";
     import { page } from "$app/stores";
     import * as Sheet from "$lib/components/ui/sheet";
+    import ThemeSwitch from "./ThemeSwitch.svelte";
 
     const links = [
         {
@@ -24,7 +25,7 @@
     let isSheetOpen = false;
 </script>
 
-<div class=" w-[100dvw] bg-secondary text-secondary-foreground py-8 px-6">
+<div class=" bg-secondary text-secondary-foreground py-8 px-6">
     <nav class="max-w-screen-2xl flex justify-between items-center mx-auto">
         <div class="flex items-center gap-2">
             <div class="bg-primary w-5 h-5 me-4" />
@@ -33,7 +34,11 @@
                 <span class="text-xl uppercase"> / Web Developer </span>
             </div>
         </div>
-        <div>
+        <div class="flex">
+
+            <ThemeSwitch />
+
+            <!-- Large screen -->
             <div class="uppercase hidden md:flex">
                 {#each links as link}
                     <Button
@@ -44,12 +49,12 @@
                     >
                 {/each}
             </div>
-
+            <!-- Small screen -->
             <Sheet.Root bind:open={isSheetOpen}>
-                <Sheet.Trigger  class="flex md:hidden" >
+                <Sheet.Trigger class="flex md:hidden">
                     <Button variant="ghost" size="icon">
                         <svg
-                            class="w-12 h-auto"
+                            class="w-6 h-auto"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             ><circle
