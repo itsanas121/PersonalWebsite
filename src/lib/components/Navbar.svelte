@@ -3,6 +3,7 @@
     import { page } from "$app/stores";
     import * as Sheet from "$lib/components/ui/sheet";
     import ThemeSwitch from "./ThemeSwitch.svelte";
+    import Title from "$lib/components/Title.svelte"
 
     const links = [
         {
@@ -25,17 +26,17 @@
     let isSheetOpen = false;
 </script>
 
-<div class=" bg-secondary text-secondary-foreground py-8 px-6">
+<header class=" bg-secondary text-secondary-foreground py-8 px-6">
     <nav class="max-w-screen-2xl flex justify-between items-center mx-auto">
-        <div class="flex items-center gap-2">
-            <div class="bg-primary w-5 h-5 me-4" />
+        <a href="/" class="flex items-center gap-2">
             <div class="flex items-end gap-2">
-                <span class="font-bold text-3xl"> Anas </span>
-                <span class="text-xl uppercase hidden sm:flex"> / Web Developer </span>
+                <Title title="Anas" class="text-3xl"/>
+                <span class="text-xl uppercase hidden sm:flex">
+                    / Web Developer
+                </span>
             </div>
-        </div>
+        </a>
         <div class="flex">
-
             <ThemeSwitch />
 
             <!-- Large screen -->
@@ -105,4 +106,4 @@
             </Sheet.Root>
         </div>
     </nav>
-</div>
+</header>

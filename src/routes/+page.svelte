@@ -1,13 +1,14 @@
 <script>
+    import SocialMedia from "$lib/components/SocialMedia.svelte";
    import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
-<div class="flex justify-end">
+<div class="flex justify-end pb-[35rem] lg:pb-0">
    <div
-      class="bg-secondary text-secondary-foreground relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-6.5rem)] flex justify-center items-center pb-32"
+      class="bg-secondary text-secondary-foreground relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-10.5rem)] flex justify-center items-center pb-32"
    >
       <div
-         class="bg-[#f4ece6] dark:bg-[#303030] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.8)] w-[22rem] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center justify-between pt-8 gap-2 self-bottom lg:self-start translate-y-[105%] lg:translate-y-1/4 max-w-[85vw]"
+         class="bg-[#f4ece6] dark:bg-[#303030] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.8)] w-[22rem] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center justify-between pt-8 gap-2 self-bottom lg:self-start translate-y-[105%] lg:translate-y-[10%] max-w-[85vw]"
       >
          <img
             src="https://img.freepik.com/premium-vector/programmer-flat-illustration_120816-196745.jpg?w=826"
@@ -23,6 +24,7 @@
          <div
             class="bg-secondary text-secondary-foreground w-full flex justify-center p-2 mt-12"
          >
+         <SocialMedia/>
             <Button
                variant="ghost"
                size="icon"
@@ -96,4 +98,5 @@
          </div>
       </div>
    </div>
+
 </div>
