@@ -4,7 +4,7 @@
     export let company: string;
 </script>
 
-<div class="bg-secondary p-8 shadow-xl flex flex-col sm:flex-row  items-center gap-16">
+<div class="bg-secondary text-secondary-foreground p-8 shadow-xl flex flex-col sm:flex-row  items-center gap-16">
     <div class="flex flex-col min-w-[11rem]">
         <span>
             {company}
@@ -13,7 +13,7 @@
         <span class="font-bold"> {title}</span>
     </div>
 
-    <div>
+    <div class="w-full">
         <slot />
     </div>
 </div>

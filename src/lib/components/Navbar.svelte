@@ -32,7 +32,7 @@
             <div class="flex items-end gap-2">
                 <Title title="Anas" class="text-3xl"/>
                 <span class="text-xl uppercase hidden sm:flex">
-                    / Web Developer
+                    / CS Student
                 </span>
             </div>
         </a>
