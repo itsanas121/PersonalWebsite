@@ -16,7 +16,7 @@
             <span class="text-2xl font-bold"> Experience </span>
             <!-- <Button><href="CV.pdf" download="MY CV"></Button> -->
              <a href="CV.pdf" download="CV">
-               <Button>Download CV</Button>
+               <Button>MY CV</Button>
                         </div>
         <ResumeCard
             date="01/2024 - present"
