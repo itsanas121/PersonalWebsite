@@ -91,7 +91,7 @@
          </div>
          <div class="flex flex-col gap-2">
             <p>
-               A Junior Computer Science student at Umm Al-Qura University,
+               A Sophomore Computer Science student at Umm Al-Qura University,
                intersted in Data Science, Web Development, and exploring the
                endless possibilities at the intersection of technology and
                innovation
