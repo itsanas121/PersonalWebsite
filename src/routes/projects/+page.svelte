@@ -44,6 +44,7 @@
             <li>Delete or edit tasks</li>
             <li>Move tasks to a completed tasks list</li>
             <li>Sort tasks by priority</li>
+            <li>Progressive Web App Support</li>
         </ul>
         <a href="https://todolist-anas.netlify.app/" target="_blank"
             ><Button>Try it!</Button></a

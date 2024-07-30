@@ -11,8 +11,8 @@
 >
     <div class="flex flex-col gap-8 pt-8">
         <div class="flex flex-col min-w-32 border-s-8 border-primary ps-8">
-            <span class="font-bold text-primary text-xl"> {title}</span>
-            <span> {subtitle}</span>
+            <!-- <span class="font-bold text-primary text-xl"> {title}</span> -->
+            <span class="font-bold text-primary text-xl"> {subtitle}</span>
         </div>
 
         <div class="ps-8 pb-8">
