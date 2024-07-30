@@ -2,20 +2,24 @@
    import SocialMedia from "$lib/components/SocialMedia.svelte";
    import Button from "$lib/components/ui/button/button.svelte";
 </script>
-
+<svelte:head>
+   <title>
+      Anas
+   </title>
+</svelte:head>
 <div class="flex justify-end pb-[35rem] lg:pb-0">
    <div
       class="bg-secondary text-secondary-foreground relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-10.5rem)] flex justify-center items-center pb-32"
    >
       <div
-         class="bg-[#f4ece6] dark:bg-[#1E3853] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.8)] w-[22rem] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center justify-between pt-8 gap-2 self-bottom lg:self-start translate-y-[105%] lg:translate-y-[10%] max-w-[85vw]"
+         class="bg-[#f4ece6] dark:bg-[#1E3853] shadow-[0_10px_60px_-15px_rgba(0,0,0,0.8)] w-[22rem] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center justify-between pt-8 gap-4 self-bottom lg:self-start translate-y-[105%] lg:translate-y-[10%] max-w-[85vw]"
       >
          <img
-            src="https://img.freepik.com/premium-vector/programmer-flat-illustration_120816-196745.jpg?w=826"
+            src="/programmer.jpg"
             class="rounded-full w-64 mx-auto grayscale"
             alt="الصورة الشخصية"
          />
-        
+
          <div class="flex flex-col items-center gap-8">
             <h1 class="font-bold text-4xl dark:text-[#2196F3]">Anas</h1>
             <hr class="w-28 border-2 border-primary" />
@@ -87,7 +91,7 @@
          </div>
          <div class="flex flex-col gap-2">
             <p>
-              A Junior Computer Science student at Umm Al-Qura University,
+               A Junior Computer Science student at Umm Al-Qura University,
                intersted in Data Science, Web Development, and exploring the
                endless possibilities at the intersection of technology and
                innovation

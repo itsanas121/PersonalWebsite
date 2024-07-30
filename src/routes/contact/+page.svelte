@@ -6,7 +6,11 @@
     import { Label } from "$lib/components/ui/label/index.js";
     import Textarea from "$lib/components/ui/textarea/textarea.svelte";
 </script>
-
+<svelte:head>
+   <title>
+      Let's Talk!
+   </title>
+</svelte:head>
 <Container class="flex flex-col gap-16">
     <Title title="Let's Talk!" />
     <form

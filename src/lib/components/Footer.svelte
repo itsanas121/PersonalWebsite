@@ -12,7 +12,7 @@
         <div class="flex flex-col md:flex-row gap-4 md:gap-16">
             <span class="flex gap-4 md:gap-0 md:flex-col items-center">
                 <span class="font-semibold">Call</span>
-                <a href="tel:0507487697">0507487697</a>
+                <a href="tel:+966507487697">+966507487697</a>
             </span>
             <span class="flex gap-4 md:gap-0 md:flex-col items-center">
                 <span class="font-semibold">Email</span>
