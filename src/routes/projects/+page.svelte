@@ -36,6 +36,9 @@
         <a href="https://itsanas121.github.io/calculator/" target="_blank"
             ><Button>Try it!</Button></a
         >
+        <Button href="https://github.com/itsanas121/calculator" variant="outline" target="_blank"
+               >Source</Button
+            >
     </ProjectsCard>
 
     <ProjectsCard title="Anas" subtitle="A To-Do List" imgSrc="/todolist.jpeg ">
@@ -53,5 +56,8 @@
         <a href="https://todolist-anas.netlify.app/" target="_blank"
             ><Button>Try it!</Button></a
         >
+        <Button href="https://github.com/itsanas121/PersonalWebsite" variant="outline" target="_blank"
+               >Source</Button
+            >
     </ProjectsCard>
 </Container>

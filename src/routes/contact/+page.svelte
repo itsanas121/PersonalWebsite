@@ -39,11 +39,11 @@
         </div>
         <div>
             <Label for="subject">Subject</Label>
-            <Input required name="subject" id="subject" placeholder="...." />
+            <Input required name="subject" id="subject" placeholder="Type the subject" />
         </div>
         <div>
             <Label for="message">Message</Label>
-            <Textarea required name="message" id="message" placeholder="...." />
+            <Textarea required name="message" id="message" placeholder="Enter your message here" />
         </div>
         <Button type="submit" class="max-w-32">Send</Button>
     </form>
