@@ -56,7 +56,7 @@
         <a href="https://todolist-anas.netlify.app/" target="_blank"
             ><Button>Try it!</Button></a
         >
-        <Button href="https://github.com/itsanas121/PersonalWebsite" variant="outline" target="_blank"
+        <Button href="https://github.com/itsanas121/todolist" variant="outline" target="_blank"
                >Source</Button
             >
     </ProjectsCard>
