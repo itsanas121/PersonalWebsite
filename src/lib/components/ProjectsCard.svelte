@@ -17,9 +17,7 @@
 
         <div class="ps-8 pb-8">
             <slot />
-            <a href="https://itsanas121.github.io/calculator/" target="_blank"
-                ><Button>Try it!</Button></a
-            >
+            
         </div>
     </div>
     <img src={imgSrc} alt="صورة المشروع" class="w-auto sm:w-64 object-cover" />

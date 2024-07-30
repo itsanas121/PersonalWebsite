@@ -29,25 +29,24 @@
             <li>User-friendly interface for basic arithmetic calculations</li>
             <li>Handling incorrect calcuation made by the user</li>
         </ul>
+        <a href="https://itsanas121.github.io/calculator/" target="_blank"
+            ><Button>Try it!</Button></a
+        >
     </ProjectsCard>
 
     <ProjectsCard title="Anas" subtitle="A To-Do List" imgSrc="/todolist.jpeg ">
         <ul class="list-disc">
             <li>Easy to use</li>
             <li>Set reminders and due times for tasks</li>
-            <li>View all tasks or filter by daily tasks
-            </li>
-            <li>Mark tasks as completed
-            </li>
-            <li>Add new tasks
-            </li>
-            <li>Delete or edit tasks
-            </li>
-            <li>Move tasks to a completed tasks list
-            </li>
-            <li>Sort tasks by priority
-            </li>
-            
+            <li>View all tasks or filter by daily tasks</li>
+            <li>Mark tasks as completed</li>
+            <li>Add new tasks</li>
+            <li>Delete or edit tasks</li>
+            <li>Move tasks to a completed tasks list</li>
+            <li>Sort tasks by priority</li>
         </ul>
+        <a href="https://todolist-anas.netlify.app/" target="_blank"
+            ><Button>Try it!</Button></a
+        >
     </ProjectsCard>
 </Container>
